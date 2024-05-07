@@ -13,16 +13,20 @@
 </head>
 
 <body>
-  <img src="images/header.jpg" alt="logo">
+
+  <div class="logo">
+    <img src="images/header.svg" alt="logo">
+  </div>
 
   <div class="collections">
     <div class="lu">
       <p>
         Lu
       </p>
+    </div>
 
-
-      <img src="images/Vector 1.jpg" alt="vu">
+    <div class="vu">
+      <img src="images/Vector 1.svg" alt="vu">
     </div>
 
     <div class="alire">
@@ -33,17 +37,19 @@
   </div>
 
   <div class="couverture">
-    <img src="images/51F9YMKYQEL 1.jpg" alt="couverture">
+    <img src="images/51F9YMKYQEL 1.svg" alt="couverture">
   </div>
 
-  <select class="star-rating" aria-label="Note utilisateur">
-    <option value="">notez ce livre</option>
-    <option value="5">Excellent</option>
-    <option value="4">Très bien</option>
-    <option value="3">bien</option>
-    <option value="2">pas bien</option>
-    <option value="1">terrible</option>
-  </select>
+  <div class="etoiles">
+    <select class="star-rating" aria-label="Note utilisateur">
+      <option value="">notez ce livre</option>
+      <option value="5">Excellent</option>
+      <option value="4">Très bien</option>
+      <option value="3">bien</option>
+      <option value="2">pas bien</option>
+      <option value="1">terrible</option>
+    </select>
+  </div>
 
   <div class="titre">
     <p>
@@ -55,9 +61,11 @@
     </p>
   </div>
 
-  <p>
-    Albert Einstein
-  </p>
+  <div class="auteur">
+    <p>
+      Albert Einstein
+    </p>
+  </div>
 
   <div class="infos">
     <div class="info1">
@@ -92,7 +100,9 @@
     </p>
   </div>
 
-  <img src="images/Line 1.jpg" alt="ligne verte">
+  <div class="ligneverte">
+    <img src="images/Line 1.svg" alt="ligne verte">
+  </div>
 
   <div class="comtitre">
     <p>
@@ -100,7 +110,7 @@
     </p>
   </div>
 
-  <div class="commentaire">
+  <div class="ajcommentaire">
     <p>
       <em>
         <strong>
@@ -108,35 +118,49 @@
         </strong>
       </em>
     </p>
+  </div>
 
-
-    <img src="images/highlighter.jpg" alt="ecrire">
+  <div class="ecrire">
+    <img src="images/highlighter.svg" alt="ecrire">
   </div>
 
   <div class="commentaires">
-    <p>
-      Eric à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae
-    </p>
+    <div class="com1">
+      <p>
+        <strong>Eric</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae
+      </p>
+    </div>
 
-    <p>
-      Cécile à commenté: Et eligendi dolores qui vitae rerum aut dolor nisi At saepe eaque et dolor nihil lorem ipsum
-      dolor sit amet.
-    </p>
+    <div class="com2">
+      <p>
+        <strong>Cécile</strong> à commenté: Et eligendi dolores qui vitae rerum aut dolor nisi At saepe eaque et dolor
+        nihil lorem ipsum
+        dolor sit amet.
+      </p>
+    </div>
 
-    <p>
-      Jean-Pierre à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum aut dolor nisi At saepe
-      eaque et dolor nihil ad enim omnis ad afficher plus...
-    </p>
+    <div class="com3">
+      <p>
+        <strong>Jean-Pierre</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum aut
+        dolor nisi At saepe
+        eaque et dolor nihil ad enim omnis ad <em><strong>afficher plus...</strong></em>
+      </p>
+    </div>
 
-    <p>
-      Andréa à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum aut dolor nisi At saepe eaque
-      et
-      dolor nihil ad enim omnis ad afficher plus...
-    </p>
+    <div class="com4">
+      <p>
+        <strong>Andréa</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum aut dolor
+        nisi At saepe eaque
+        et
+        dolor nihil ad enim omnis ad <em><strong>afficher plus...</strong></em>
+      </p>
+    </div>
 
-    <p>
-      Jacqueline à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum
-    </p>
+    <div class="com5">
+      <p>
+        <strong>Jacqueline</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum
+      </p>
+    </div>
   </div>
 
   <div class="voirplus">
@@ -147,18 +171,20 @@
     </em>
   </div>
 
-  <img src="images/footer/house.jpg" alt="maison">
-  <img src="images/footer/magnifyingglass.jpg" alt="recherche">
-  <img src="images/footer/books.vertical.jpg" alt="collection">
-  <img src="images/footer/person.jpg" alt="profil">
+  <div class="footer">
+    <img src="images/footer/footer/house.svg" alt="acceuil">
+    <img src="images/footer/footer/magnifyingglass.svg" alt="recherche">
+    <img src="images/footer/footer/books.vertical.svg" alt="coll">
+    <img src="images/footer/footer/person.svg" alt="profil">
+  </div>
 
-
-  <script src="scripts/star-rating.min.js"></script>
-  <script>
-    var stars = new StarRating(".star-rating", {
-      tooltip: false,
-    });
-  </script>
+  <div>
+    <script src="scripts/star-rating.min.js"></script>
+    <script>
+      var stars = new StarRating(".star-rating", {
+        tooltip: false,
+      });
+    </script>
 </body>
 
 </html>
