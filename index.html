@@ -1,32 +1,190 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
-            <option value="">Select a rating</option>
-            <option value="5">Excellent</option>
-            <option value="4">Very Good</option>
-            <option value="3">Average</option>
-            <option value="2">Poor</option>
-            <option value="1">Terrible</option>
-        </select>
-    -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="logo">
+    <img src="images/header.svg" alt="logo">
+  </div>
+
+  <div class="collections">
+    <div class="lu">
+      <p>
+        Lu
+      </p>
+    </div>
+
+    <div class="vu">
+      <img src="images/Vector 1.svg" alt="vu">
+    </div>
+
+    <div class="alire">
+      <p>
+        À lire
+      </p>
+    </div>
+  </div>
+
+  <div class="couverture">
+    <img src="images/51F9YMKYQEL 1.svg" alt="couverture">
+  </div>
+
+  <div class="etoiles">
+    <select class="star-rating" aria-label="Note utilisateur">
+      <option value="">notez ce livre</option>
+      <option value="5">Excellent</option>
+      <option value="4">Très bien</option>
+      <option value="3">bien</option>
+      <option value="2">pas bien</option>
+      <option value="1">terrible</option>
+    </select>
+  </div>
+
+  <div class="titre">
+    <p>
+      <em>
+        <strong>
+          Comment je vois le monde
+        </strong>
+      </em>
+    </p>
+  </div>
+
+  <div class="auteur">
+    <p>
+      Albert Einstein
+    </p>
+  </div>
+
+  <div class="infos">
+    <div class="info1">
+      <p>
+        Science
+      </p>
+    </div>
+
+    <div class="info2">
+      <p>
+        1999
+      </p>
+    </div>
+  </div>
+
+  <div class="texte">
+    <p>
+      Qui n'a jamais entendu parler d'Albert Einstein ? de ses grandes découvertes ? Son génie a fait l'unanimité, son
+      nom a été mis sur le même plan que celui de Descartes, de Galilée ou de Newton. Mais il aura fallu la tragique
+      apparition du nazisme, la Seconde Guerre mondiale et toutes ses conséquences pour laisser entrevoir, derrière la
+      grande figure du savant, un homme d'une humanité exemplaire, partisan de l'entente entre les peuples, observateur
+      attentif du monde. Cet ouvrage rend compte, à partir de textes écrits entre 1930 et 1935, des grandes questions
+      sur
+      lesquelles ce génie solitaire souhaitait s'expliquer publiquement : le pacifisme, la lutte contre le
+      national-socialisme, la défense du judaïsme, la religion et la science, la culture morale, l'éducation ; et de son
+      admiration pour quelques grandes personnalités, comme Hendrik A. Lorentz, George B. Shaw, Bertrand Russel. Il
+      traite
+      également de problèmes scientifiques majeurs, parmi lesquels la théorie de la relativité restreinte et
+      généralisée,
+      la mécanique de Newton, l'influence de Maxwell... Autant de sujets qui conduisent Einstein à s'interroger sur la
+      vérité scientifique et sur les responsabilités de l'homme de science face à l'histoire.
+    </p>
+  </div>
+
+  <div class="ligneverte">
+    <img src="images/Line 1.svg" alt="ligne verte">
+  </div>
+
+  <div class="comtitre">
+    <p>
+      Commentaires
+    </p>
+  </div>
+
+  <div class="ajcommentaire">
+    <p>
+      <em>
+        <strong>
+          Ajouter un commentaire
+        </strong>
+      </em>
+    </p>
+  </div>
+
+  <div class="ecrire">
+    <img src="images/highlighter.svg" alt="ecrire">
+  </div>
+
+  <div class="commentaires">
+    <div class="com1">
+      <p>
+        <strong>Eric</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae
+      </p>
+    </div>
+
+    <div class="com2">
+      <p>
+        <strong>Cécile</strong> à commenté: Et eligendi dolores qui vitae rerum aut dolor nisi At saepe eaque et dolor
+        nihil lorem ipsum
+        dolor sit amet.
+      </p>
+    </div>
+
+    <div class="com3">
+      <p>
+        <strong>Jean-Pierre</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum aut
+        dolor nisi At saepe
+        eaque et dolor nihil ad enim omnis ad <em><strong>afficher plus...</strong></em>
+      </p>
+    </div>
+
+    <div class="com4">
+      <p>
+        <strong>Andréa</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum aut dolor
+        nisi At saepe eaque
+        et
+        dolor nihil ad enim omnis ad <em><strong>afficher plus...</strong></em>
+      </p>
+    </div>
+
+    <div class="com5">
+      <p>
+        <strong>Jacqueline</strong> à commenté: Lorem ipsum dolor sit amet. Et eligendi dolores qui vitae rerum
+      </p>
+    </div>
+  </div>
+
+  <div class="voirplus">
+    <p>
+      <em>
+        voir plus...
+    </p>
+    </em>
+  </div>
+
+  <div class="footer">
+    <img src="images/footer/footer/house.svg" alt="acceuil">
+    <img src="images/footer/footer/magnifyingglass.svg" alt="recherche">
+    <img src="images/footer/footer/books.vertical.svg" alt="coll">
+    <img src="images/footer/footer/person.svg" alt="profil">
+  </div>
+
+  <div>
     <script src="scripts/star-rating.min.js"></script>
     <script>
       var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
+        tooltip: false,
       });
     </script>
-  </body>
+</body>
+
 </html>

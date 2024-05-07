@@ -1,7 +1,6 @@
-/* 💡 Configuration des styles du sélecteur de note */
 :root {
-  --gl-star-empty: url(../img/star-empty.svg);
-  --gl-star-full: url(../img/star-full.svg);
+  --gl-star-empty: url(../images/icon/icon/android/24/star-filled.svg);
+  --gl-star-full: url(../images/icon/icon/icon/android/24/star-filled.svg);
   --gl-star-size: 24px;
   --gl-tooltip-border-radius: 4px;
   --gl-tooltip-font-size: 0.875rem;
@@ -12,4 +11,231 @@
   --gl-tooltip-size: 6px;
 }
 
-/* 🦊 Vos styles ici */
+body {}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.collections {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lu {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #55a66a;
+  border-radius: 10px;
+  color: #55a66a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 17px;
+  font-size: 16px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.vu {
+  display: flex;
+  justify-content: center;
+  margin-left: -33px;
+}
+
+
+.alire {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #808080;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 17px;
+  font-size: 16px;
+}
+
+.couverture {
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.etoiles {
+  display: flex;
+  justify-content: center;
+}
+
+.titre {
+  font-size: 18px;
+  margin-top: -6px;
+  margin-bottom: -20px;
+  display: flex;
+  justify-content: center;
+  fontal
+}
+
+.auteur {
+  display: flex;
+  justify-content: center;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #808080;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 11px;
+}
+
+
+.info2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #808080;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.texte {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.ligneverte {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.comtitre {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 38px;
+  margin-bottom: -18px;
+}
+
+.ajcommentaire {
+  display: flex;
+  font-size: 14px;
+  color: #848484;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.ecrire {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -34px;
+  border-style: solid;
+  border-color: #848484;
+  border-width: 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-left: 38px;
+  margin-right: 38px;
+  padding-bottom: 3px;
+}
+
+.commentaires {
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.com1 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-top: 23px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.com2 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.com3 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.com4 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.com5 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.voirplus {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 38px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 11px;
+  padding-bottom: 25px;
+}
